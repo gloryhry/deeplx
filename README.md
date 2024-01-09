@@ -17,7 +17,7 @@ An unofficial Node package to translate text using [DeepL](https://www.deepl.com
 
 ## Online Service
 
-<https://deeplx.vercel.app/translate>
+<https://deeplx.hzbz.edu.eu.org/translate>
 
 ## Installation
 
