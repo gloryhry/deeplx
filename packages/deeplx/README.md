@@ -1,4 +1,4 @@
-# DeepL Translate
+# DeepLX
 
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/deeplx/ci.yml?branch=master)](https://github.com/un-ts/deeplx/actions/workflows/ci.yml?query=branch%3Amaster)
 [![Codecov](https://img.shields.io/codecov/c/github/un-ts/deeplx.svg)](https://codecov.io/gh/un-ts/deeplx)
@@ -14,11 +14,32 @@
 [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![changesets](https://img.shields.io/badge/maintained%20with-changesets-176de3.svg)](https://github.com/atlassian/changesets)
 
-An unofficial but powerful and easy-to-use yet free DeepL API client for Node.js using [DeepL](https://www.deepl.com) by porting [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX).
+All in one for [`@deeplx/core`](https://github.com/un-ts/deeplx/blob/master/packages/@deeplx/core) and [`@deeplx/cli`](https://github.com/un-ts/deeplx/blob/master/packages/@deeplx/cli), a powerful and easy-to-use yet free DeepL API client for Node.js using [DeepL](https://www.deepl.com) by porting [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX).
+
+## TOC <!-- omit in toc -->
+
+- [Online Service](#online-service)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Supported languages](#supported-languages)
+  - [Command line tool](#command-line-tool)
+    - [Help](#help)
+    - [Example 1](#example-1)
+    - [Example 2](#example-2)
+    - [Example 3](#example-3)
+    - [Example 4](#example-4)
+  - [Node library](#node-library)
+    - [Example 1](#example-1-1)
+    - [Example 2](#example-2-1)
+- [Sponsors and Backers](#sponsors-and-backers)
+  - [Sponsors](#sponsors)
+  - [Backers](#backers)
+- [Changelog](#changelog)
+- [License](#license)
 
 ## Online Service
 
-<https://deeplx.hzbz.edu.eu.org/translate>
+<https://deeplx.vercel.app/translate>
 
 ## Installation
 
@@ -82,7 +103,7 @@ deeplx -h
 ```console
 Usage: deeplx [options]
 
-The cli for [`@deeplx/core`](https://github.com/un-ts/deeplx/blob/master/packages/@deeplx/core).
+An unofficial Node package to translate text using [DeepL](https://www.deepl.com) by porting [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX).
 
 Options:
   -V, --version        output the version number

@@ -1,9 +1,9 @@
 {
-  "extends": "./node_modules/@1stg/tsconfig/lib.json",
+  "extends": "@1stg/tsconfig/node16",
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
-      "deeplx": ["./src/index.ts"]
+      "deeplx": ["./packages/deeplx/src/index.ts"],
+      "@deeplx/core": ["./packages/@deeplx/core/src/index.ts"]
     }
   }
 }
